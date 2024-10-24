@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Services Section</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <style>
+  
+    .rotate-card {
+      transition: transform 0.8s ease-in-out;
+    }
+
+   
+    .rotate-card:hover {
+      transform: rotate(360deg);
+    }
+
+    
+    .diagonal-bg {
+      background: linear-gradient(135deg, #3b82f6 50%, #ffffff 50%);
+    }
+  </style>
+</head>
+<body class="bg-gray-100">
+  <section class="diagonal-bg py-10">
+    <div class="container mx-auto text-center text-gray-800">
+      <h2 class="text-3xl font-bold mb-8">OUR SERVICES</h2>
+      <div class="flex flex-wrap justify-center gap-8">
+        
+        <!-- Service Card 1 -->
+        <div class="relative">
+          <div class="absolute -top-10 left-1/2 transform -translate-x-1/2 z-10">
+            <img src="C:\Users\hebba\Downloads\push-notification-icon-26.png" alt="Emergency Icon" class="w-20 h-20 rounded-full">
+          </div>
+          <div class="bg-white text-gray-800 rounded-lg shadow-lg p-6 w-72 h-72 text-center relative rotate-card z-0">
+            <h3 class="mt-12 text-xl font-bold mb-2">Emergency Plumbing Services</h3>
+            <p class="mb-4">Our plumbers are ready to go 24/7 for emergencies - including nights, weekends, and holidays.</p>
+            <a href="#" class="text-blue-600 font-semibold">EXPLORE THIS SERVICE &gt;</a>
+          </div>
+        </div>
+
+        <!-- Service Card 2 -->
+        <div class="relative">
+          <div class="absolute -top-10 left-1/2 transform -translate-x-1/2 z-10">
+            <img src="C:\Users\hebba\Downloads\fitting.png" alt="Plumbing Icon" class="w-20 h-20 rounded-full">
+          </div>
+          <div class="bg-white text-gray-800 rounded-lg shadow-lg p-6 w-72 h-72 text-center relative rotate-card z-0">
+            <h3 class="mt-12 text-xl font-bold mb-2">Plumbing and Drains</h3>
+            <p class="mb-4">As the largest plumbing and drain service company, we make thousands of repairs every day.</p>
+            <a href="#" class="text-blue-600 font-semibold">EXPLORE THIS SERVICE &gt;</a>
+          </div>
+        </div>
+
+        <!-- Service Card 3 -->
+        <div class="relative">
+          <div class="absolute -top-10 left-1/2 transform -translate-x-1/2 z-10">
+            <img src="C:\Users\hebba\Downloads\512x512bb.png" alt="Water Damage Icon" class="w-20 h-20 rounded-full">
+          </div>
+          <div class="bg-white text-gray-800 rounded-lg shadow-lg p-6 w-72 h-72 text-center relative rotate-card z-0">
+            <h3 class="mt-12 text-xl font-bold mb-2">Water Damage</h3>
+            <p class="mb-4">Our teams are equipped with state-of-the-art water extraction and cleanup equipment.</p>
+            <a href="#" class="text-blue-600 font-semibold">EXPLORE THIS SERVICE &gt;</a>
+          </div>
+        </div>
+
+        <!-- Service Card 4 -->
+        <div class="relative">
+          <div class="absolute -top-10 left-1/2 transform -translate-x-1/2 z-10">
+            <img src="C:\Users\hebba\Downloads\OIP.R2Af3ziIVncC8Tl52HO30gAAAA.png" alt="Water Heater Icon" class="w-20 h-20 rounded-full">
+          </div>
+          <div class="bg-white text-gray-800 rounded-lg shadow-lg p-6 w-72 h-72 text-center relative rotate-card z-0">
+            <h3 class="mt-12 text-xl font-bold mb-2">Water Heaters</h3>
+            <p class="mb-4">Trust us for repair and replacement of gas, electric, and tankless water heaters.</p>
+            <a href="#" class="text-blue-600 font-semibold">EXPLORE THIS SERVICE &gt;</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
